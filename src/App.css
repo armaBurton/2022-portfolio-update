@@ -1,0 +1,21 @@
+.portfolioHolder {
+  display: grid;
+  grid-template-columns: 6fr 9fr;
+  align-items: center;
+  height: 100%;
+  width: 960px;
+}
+
+.leftSection {
+  width: 350px;
+  height: 100%;
+  color: var(--orange);
+  background-color: var(--dk-blue);
+}
+
+.rightSection {
+  width: 610px;
+  height: 100%;
+  color: var(--dk-blue);
+  background-color: var(--whitish);
+}

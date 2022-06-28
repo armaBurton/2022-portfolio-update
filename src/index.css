@@ -1,0 +1,206 @@
+@import url('https://use.typekit.net/qnb3eea.css');
+
+:root {
+  --red-orange: rgb(237, 102, 53);
+  --orange: rgb(253, 186, 19);
+  --whitish: rgb(249, 237, 214);
+  --lt-blue: rgb(61, 89, 135);
+  --dk-blue: rgb(30, 36, 82);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'paralucent', sans-serif;
+}
+
+html,
+body {
+  width: 100;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(
+    to right,
+    var(--orange) 0%,
+    var(--lt-blue) 50%
+  );
+  /* background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%); */
+}
+
+/* Fonts added:
+Paralucent Demi Bold
+font-family: paralucent, sans-serif;
+font-weight: 600;
+font-style: normal;
+
+Paralucent Thin Italic
+font-family: paralucent, sans-serif;
+font-weight: 100;
+font-style: italic;
+
+Paralucent Light Italic
+font-family: paralucent, sans-serif;
+font-weight: 300;
+font-style: italic;
+
+Paralucent Extra Light Italic
+font-family: paralucent, sans-serif;
+font-weight: 200;
+font-style: italic;
+
+Paralucent Heavy
+font-family: paralucent, sans-serif;
+font-weight: 900;
+font-style: normal;
+
+Paralucent Medium Italic
+font-family: paralucent, sans-serif;
+font-weight: 500;
+font-style: italic;
+
+Paralucent Light
+font-family: paralucent, sans-serif;
+font-weight: 300;
+font-style: normal;
+
+Paralucent Bold
+font-family: paralucent, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Paralucent Demi Bold Italic
+font-family: paralucent, sans-serif;
+font-weight: 600;
+font-style: italic;
+
+Paralucent Bold Italic
+font-family: paralucent, sans-serif;
+font-weight: 700;
+font-style: italic;
+
+Paralucent Extra Light
+font-family: paralucent, sans-serif;
+font-weight: 200;
+font-style: normal;
+
+Paralucent Heavy Italic
+font-family: paralucent, sans-serif;
+font-weight: 900;
+font-style: italic;
+
+Paralucent Thin
+font-family: paralucent, sans-serif;
+font-weight: 100;
+font-style: normal;
+
+Paralucent Medium
+font-family: paralucent, sans-serif;
+font-weight: 500;
+font-style: normal;
+
+Paralucent Condensed Bold Italic
+font-family: paralucent-condensed, sans-serif;
+font-weight: 600;
+font-style: italic;
+
+Paralucent Condensed Thin Italic
+font-family: paralucent-condensed, sans-serif;
+font-weight: 100;
+font-style: italic;
+
+Paralucent Condensed Medium Italic
+font-family: paralucent-condensed, sans-serif;
+font-weight: 400;
+font-style: italic;
+
+Paralucent Condensed Heavy
+font-family: paralucent-condensed, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Paralucent Condensed Bold
+font-family: paralucent-condensed, sans-serif;
+font-weight: 600;
+font-style: normal;
+
+Paralucent Condensed Demi Bold
+font-family: paralucent-condensed, sans-serif;
+font-weight: 500;
+font-style: normal;
+
+Paralucent Condensed Medium
+font-family: paralucent-condensed, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Paralucent Condensed Light Italic
+font-family: paralucent-condensed, sans-serif;
+font-weight: 300;
+font-style: italic;
+
+Paralucent Condensed Extra Light
+font-family: paralucent-condensed, sans-serif;
+font-weight: 200;
+font-style: normal;
+
+Paralucent Condensed Heavy Italic
+font-family: paralucent-condensed, sans-serif;
+font-weight: 700;
+font-style: italic;
+
+Paralucent Condensed Demi Bold Italic
+font-family: paralucent-condensed, sans-serif;
+font-weight: 500;
+font-style: italic;
+
+Paralucent Condensed Thin
+font-family: paralucent-condensed, sans-serif;
+font-weight: 100;
+font-style: normal;
+
+Paralucent Condensed Light
+font-family: paralucent-condensed, sans-serif;
+font-weight: 300;
+font-style: normal;
+
+Paralucent Condensed Extra Light Italic
+font-family: paralucent-condensed, sans-serif;
+font-weight: 200;
+font-style: italic;
+
+ParalucentStencil ExtraLight
+font-family: paralucent-stencil, sans-serif;
+font-weight: 200;
+font-style: normal;
+
+ParalucentStencil Heavy
+font-family: paralucent-stencil, sans-serif;
+font-weight: 900;
+font-style: normal;
+
+ParalucentStencil Medium
+font-family: paralucent-stencil, sans-serif;
+font-weight: 500;
+font-style: normal;
+
+Paralucent Text Bold
+font-family: paralucent-text, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Paralucent Text Book Italic
+font-family: paralucent-text, sans-serif;
+font-weight: 400;
+font-style: italic;
+
+Paralucent Text Bold Italic
+font-family: paralucent-text, sans-serif;
+font-weight: 700;
+font-style: italic;
+
+Paralucent Text Book
+font-family: paralucent-text, sans-serif;
+font-weight: 400;
+font-style: normal; */

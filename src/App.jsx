@@ -1,3 +1,19 @@
+import styles from './App.css';
+import LeftSection from './components/LeftSection/LeftSection';
+
 export default function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <>
+      <body>
+        <section
+          className={styles.portfolioHolder}
+          style={{ backgroundColor: 'yellow' }}
+        >
+          <LeftSection />
+          {/* <section className={styles.leftSection}>left</section> */}
+          <section className={styles.rightSection}>right</section>
+        </section>
+      </body>
+    </>
+  );
 }
