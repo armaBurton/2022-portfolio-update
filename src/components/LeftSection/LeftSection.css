@@ -26,3 +26,35 @@
   letter-spacing: 0.125rem;
   font-weight: 400;
 }
+
+.contactLinkContainer {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.contactLinkRow {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.contactMethod {
+  font-weight: 100;
+  font-size: 1.75rem;
+  font-style: italic;
+  font-variant: small-caps;
+  color: var(--whitish);
+  letter-spacing: 0.125rem;
+}
+
+.leaderDots {
+  width: 100%;
+  border-bottom: 2px dotted var(--orange);
+}
+
+.contactLink {
+  font-size: 1.25rem;
+  letter-spacing: 0.063rem;
+}
