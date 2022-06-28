@@ -1,5 +1,13 @@
 @import url('https://use.typekit.net/qnb3eea.css');
 
+:root {
+  --red-orange: rgb(237, 102, 53);
+  --orange: rgb(253, 186, 19);
+  --whitish: rgb(249, 237, 214);
+  --lt-blue: rgb(61, 89, 135);
+  --dk-blue: rgb(30, 36, 82);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +17,16 @@
 
 html,
 body {
+  width: 100;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(
+    to right,
+    var(--orange) 0%,
+    var(--lt-blue) 50%
+  );
+  /* background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%); */
 }
 
 /* Fonts added:
