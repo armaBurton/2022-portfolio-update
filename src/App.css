@@ -1,12 +1,9 @@
 .portfolioHolder {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 6fr 9fr;
   align-items: center;
   height: 100%;
   width: 960px;
-  background-color: pink;
-  color: pink;
 }
 
 .leftSection {

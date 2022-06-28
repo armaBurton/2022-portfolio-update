@@ -1,5 +1,5 @@
 import styles from './App.css';
-import LeftSection from './components/leftSection/leftSection';
+import LeftSection from './components/LeftSection/LeftSection';
 
 export default function App() {
   return (

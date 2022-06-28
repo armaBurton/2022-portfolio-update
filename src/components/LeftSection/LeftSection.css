@@ -1,0 +1,28 @@
+.leftSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: var(--orange);
+  background-color: var(--dk-blue);
+}
+
+.name {
+  text-align: center;
+  width: 100%;
+  margin-top: 60px;
+  font-size: 5rem;
+  letter-spacing: 0.188rem;
+  line-height: 4rem;
+}
+
+.title {
+  margin-top: 2rem;
+  color: var(--whitish);
+  font-variant: small-caps;
+  font-style: italic;
+  font-size: 1.75rem;
+  letter-spacing: 0.125rem;
+  font-weight: 400;
+}
