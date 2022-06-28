@@ -12,11 +12,13 @@
 .leftSection {
   width: 350px;
   height: 100%;
-  background-color: yellow;
+  color: var(--orange);
+  background-color: var(--dk-blue);
 }
 
 .rightSection {
   width: 610px;
   height: 100%;
-  background-color: yellow;
+  color: var(--dk-blue);
+  background-color: var(--whitish);
 }
