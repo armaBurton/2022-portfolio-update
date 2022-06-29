@@ -1,0 +1,22 @@
+.divider {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.circle {
+  background-color: var(--whitish);
+  height: 7px;
+  width: 7px;
+  border-radius: 3px;
+}
+
+.hLine {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 5px;
+  width: 100%;
+}
