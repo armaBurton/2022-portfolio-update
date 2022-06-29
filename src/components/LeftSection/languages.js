@@ -11,3 +11,6 @@ export const tools = [
   'Illustrator',
   'Photoshop',
 ];
+export const database = ['PostgreSQL', 'Supabase'];
+export const libraries = ['React', 'Redux', 'Node.js', 'Express'];
+export const testing = ['TDD', 'Jest', 'QUnit', 'Supertest'];
